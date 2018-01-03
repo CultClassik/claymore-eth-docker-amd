@@ -1,4 +1,4 @@
-# claymore-docker-amd [![Build Status](https://travis-ci.org/CultClassik/claymore-docker-amd.svg?branch=master)](https://travis-ci.org/CultClassik/claymore-docker-amd)
+# claymore-eth-docker-amd [![Build Status](https://travis-ci.org/CultClassik/claymore-eth-docker-amd.svg?branch=master)](https://travis-ci.org/CultClassik/claymore-eth-docker-amd)
 [Image on Docker Hub](https://hub.docker.com/r/cultclassik/claymore-eth/)
 
 Dockerfile to build cultclassik/claymore GPU container.
