@@ -1,7 +1,7 @@
-# amd-docker-claymore [![Build Status](https://travis-ci.org/CultClassik/amd-docker-claymore.svg?branch=master)](https://travis-ci.org/CultClassik/amd-docker-claymore)
-[Image on Docker Hub](https://hub.docker.com/r/cultclassik/claymore-amd/)
+# claymore-docker-amd [![Build Status](https://travis-ci.org/CultClassik/claymore-docker-amd.svg?branch=master)](https://travis-ci.org/CultClassik/claymore-docker-amd)
+[Image on Docker Hub](https://hub.docker.com/r/cultclassik/claymore-eth/)
 
-Dockerfile to build cultclassik/claymore-nv GPU container.
+Dockerfile to build cultclassik/claymore GPU container.
 
 Incorporates Claymore's dual ETH miner.
 
@@ -13,11 +13,11 @@ Requires a working installation of Docker CE or EE and Nvidia-Docker2.
 
 ## Installation
 
-docker build -t cultclassik/ethminer-nv .
+docker build -t cultclassik/claymore-eth:amd .
 
 ## Usage
 
-TODO: Write usage instructions
+docker run --device=/dev/dri cultclassik\claymore-eth:amd
 
 ## Contributing
 
