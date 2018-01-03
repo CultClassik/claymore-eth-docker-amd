@@ -17,7 +17,7 @@ echo "POOL: ${DPOOL}, WALLET: ${DWALL}, PSW: x, WORKER: anonymous, ESM: 0, ALLPO
 #echo "-dcri 12" >> config.txt
 
 ./ethdcrminer64 \
-  -di ${AMD_GPU_ID}
+  -di ${AMD_GPU_ID} \
   -epool ${EPOOL1} \
   -ewal ${EWALL} \
   -epsw x \
